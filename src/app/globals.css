@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*
+  Responsive Design Note:
+  Ensure comprehensive responsive design testing across various mobile and tablet devices.
+  Verify layout, typography, image scaling, and interactive elements adapt correctly.
+  Pay attention to Tailwind's responsive utility classes (e.g., sm:, md:, lg:)
+  and custom breakpoints if defined.
+*/
+
+/* Estilos base para el modal de Artículo (Prose) */
+.prose h4 {
+  font-weight: 600;
+  color: #111827; /* text-gray-900 */
+}
+.prose p {
+  color: #374151; /* text-gray-700 */
+}
+.prose strong {
+  font-weight: 600;
+  color: #1f2937; /* text-gray-800 */
+}
+
+/* Custom responsive adjustment for Hero section min-height */
+@media (min-width: 740px) and (max-height: 1080px) {
+  .hero-min-height-responsive {
+    min-height: calc(100vh - var(--header-height, 80px));
+  }
+}
