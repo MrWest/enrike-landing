@@ -151,7 +151,7 @@ export const translations = {
       poweredBy: "Potenciado por <a href='https://www.eurekagc.com' target='_blank' rel='noopener noreferrer' class='text-gray-900 hover:text-[#007BFF] transition-all duration-150 ease-in-out inline-block hover:scale-105'>EurekaGC</a>",
       line1: "Enrike Hernández, Co-Fundador de EurekaGC, opera como el \"Ejecutor de Élite\" principal para intervenciones de \"Sprint de Desarme\".",
       linkLinkedIn: "https://www.linkedin.com/in/mr-enrique-hernandez/",
-      linkGitHub: "https://github.com/enrikehernandez",
+      linkGitHub: "https://github.com/MrWest",
       copyright: "© {year} <a href='https://www.eurekagc.com' target='_blank' rel='noopener noreferrer' class='text-gray-900 hover:text-[#007BFF] transition-all duration-150 ease-in-out inline-block hover:scale-105'>EurekaGC</a>. Todos los derechos reservados."
     },
     faqModal: {
@@ -336,7 +336,7 @@ export const translations = {
       poweredBy: "Powered by <a href='https://www.eurekagc.com' target='_blank' rel='noopener noreferrer' class='text-gray-900 hover:text-[#007BFF] transition-all duration-150 ease-in-out inline-block hover:scale-105'>EurekaGC</a>",
       line1: "Enrike Hernandez, EurekaGC Co-Founder, operates as the main \"Elite Executor\" for interventions of \"Disarmament Sprint\".",
       linkLinkedIn: "https://www.linkedin.com/in/mr-enrique-hernandez/",
-      linkGitHub: "https://github.com/enrikehernandez",
+      linkGitHub: "https://github.com/MrWest",
       copyright: "© {year} <a href='https://www.eurekagc.com' target='_blank' rel='noopener noreferrer' class='text-gray-900 hover:text-[#007BFF] transition-all duration-150 ease-in-out inline-block hover:scale-105'>EurekaGC</a>. All rights reserved."
     },
     faqModal: {
@@ -521,7 +521,7 @@ export const translations = {
       poweredBy: "Powered by <a href='https://www.eurekagc.com' target='_blank' rel='noopener noreferrer' class='text-gray-900 hover:text-[#007BFF] transition-all duration-150 ease-in-out inline-block hover:scale-105'>EurekaGC</a>",
       line1: "Enrike Hernández, Co-Fundador da EurekaGC, opera como o principal \"Executor de Elite\" para intervenções de \"Sprint de Desbloqueio\".",
       linkLinkedIn: "https://www.linkedin.com/in/mr-enrique-hernandez/",
-      linkGitHub: "https://github.com/enrikehernandez",
+      linkGitHub: "https://github.com/MrWest",
       copyright: "© {year} <a href='https://www.eurekagc.com' target='_blank' rel='noopener noreferrer' class='text-gray-900 hover:text-[#007BFF] transition-all duration-150 ease-in-out inline-block hover:scale-105'>EurekaGC</a>. Todos os direitos reservados."
     },
     faqModal: {
