@@ -19,8 +19,8 @@ export const Footer = () => {
               <span className="sr-only">LinkedIn</span>
               <Linkedin className="h-6 w-6" />
             </a>
-            {/* Optimization Note: Ensure 't.footer.linkGithub' is defined in translations for consistency. */}
-            <a href={t.footer.linkGithub || "https://github.com"} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-10 w-10 rounded-full border-2 border-gray-300 text-gray-400 transition-colors duration-150 ease-in-out hover:border-[#007BFF] hover:text-[#007BFF] hover:bg-gray-100">
+            {/* Optimization Note: Ensure 't.footer.linkGitHub' is defined in translations for consistency. */}
+            <a href={t.footer.linkGitHub || "https://github.com"} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-10 w-10 rounded-full border-2 border-gray-300 text-gray-400 transition-colors duration-150 ease-in-out hover:border-[#007BFF] hover:text-[#007BFF] hover:bg-gray-100">
               <span className="sr-only">GitHub</span>
               <Github className="h-6 w-6" />
             </a>
