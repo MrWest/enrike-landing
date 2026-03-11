@@ -3,7 +3,11 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const IntroPreloader = ({ onComplete }) => {
+type IntroPreloaderProps = {
+  onComplete: () => void;
+};
+
+const IntroPreloader = ({ onComplete }: IntroPreloaderProps) => {
   const [phase, setPhase] = useState(0); // 0: Linea, 1: Apertura, 2: Fin
 
   useEffect(() => {
