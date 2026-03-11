@@ -7,8 +7,10 @@ import { translations } from '@/lib/translations';
 type LanguageContextType = {
   language: 'es' | 'en' | 'pt';
   setLanguage: (language: 'es' | 'en' | 'pt') => void;
-  t: typeof translations['es']; // Use one of the languages as a template for the type
+  t: Translation; // Use one of the languages as a template for the type
 };
+
+type Translation = typeof translations['en'];
 
 // Create the context with a default value
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -61,7 +63,7 @@ export const LanguageProvider = ({ children }: LanguageProviderProps) => {
     setLanguageState(lang);
   };
 
-  const t = translations[language];
+  const t = translations[language] as Translation;
 
   const value = {
     language,
